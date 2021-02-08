@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "HindSiliguri";
+  src: url("../fonts/HindSiliguri-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "HindSiliguri";
+  src: url("../fonts/HindSiliguri-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "HindSiliguri";
+  src: url("../fonts/HindSiliguri-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "HindSiliguri";
+  src: url("../fonts/HindSiliguri-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "HindSiliguri";
+  src: url("../fonts/HindSiliguri-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Lucida Grande Bold";
+  src: url("../fonts/Lucida Grande Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}

@@ -1,0 +1,357 @@
+@import 'matrix';
+
+body {
+  color: $mainTextColor;
+}
+
+.intro-section__text {
+  font-family: $mainFontFam;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.logo-container {
+  font-family: $mainFontFam;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.logo,
+.section-posts__heading-link,
+.logo:hover,
+.logo:active,
+.logo:visited,
+.section-posts__heading-link:hover,
+.section-posts__heading-link:active
+.section-posts__heading-link:visited {
+  color: $mainTextColor;
+}
+
+.section-contact__dna-email {
+  color: $mainTextColor;
+}
+
+.header__nav-list {
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.header__nav-item-link {
+  color: $linkColor;
+}
+
+.header__nav-item-link:hover {
+  font-weight: 600;
+}
+
+.intro-section__heading {
+  font-family: $mainFontFam;
+  font-size: 28px;
+  line-height: 37px;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+.btn {
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.intro-section__action-explore {
+  background-color: $btnExploreBg;
+}
+
+.intro-section__action-learn {
+  border-color: $btnLearnColor;
+  color: $btnLearnColor;
+}
+
+.btn:hover {
+  background-color: $hoverBtnColor;
+  color: white;
+  cursor: pointer;
+}
+
+@mixin section-heading {
+  font: {
+    family: $mainFontFam;
+    size: 24px;
+    weight: 600;
+  }
+  line-height: 39px;
+  color: $mainTextColor;
+}
+
+@mixin heading-message {
+  font: {
+    family: $mainFontFam;
+    size: 17px;
+  }
+  line-height: 26px;
+  color: $mainTextColor;
+}
+
+.section__heading {
+  @include section-heading;
+  margin-bottom: 25px;
+}
+
+.section__heading-text {
+  @include heading-message;
+}
+
+.section-about__icon-text {
+  font-family: $mainFontFam;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.section-posts__block-heading {
+  font-family: $mainFontFam;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.section-posts__block-text {
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.section-posts__block-info {
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.section-portfolio__heading {
+  font-family: $mainFontFam;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.section-portfolio__text {
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+.testimonials__slide-text-container {
+  background-color: $slidertextBlockBg;
+}
+
+.testimonials__quote-element {
+  font-family: $mainFontFam;
+  font-size: 28px;
+  line-height: 45px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.testimonials__slide-text {
+  font-family: $mainFontFam;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.testimonials__author {
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.testimonials__author-occupation {
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+.section-contact__bg {
+  background-color: $sectionContactBg;
+}
+
+.section-contact__text-heading {
+  font-family: $mainFontFam;
+  font-size: 24px;
+  line-height: 39px;
+  font-weight: 600;
+}
+
+.section-contact__decor-circle {
+  border: 3px solid $sectionContactDecorCircle;
+  border-radius: 50%;
+}
+
+.section-contact__inner-circle {
+  border: 2px solid $sectionContactDecorCircle;
+  border-radius: 50%; 
+}
+
+.section-contact__decor-line {
+  background-color: $sectionContactDecorLine;
+}
+
+.section-contact__step-heading {
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.section-contact__step-text {
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.section-contact__step-number p {
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.section-contact__form-heading {
+  background-color: $contactFormHeadingBg;  
+}
+
+.section-contact__form-heading-text {
+  font-family: $mainFontFam;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.section-contact__form {
+  font-family: $mainFontFam;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.show-pass-container {
+  font-family: $mainFontFam;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.section-contact__input-field {
+  border: 1px solid $contactFormInputBorder;
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.section-contact__input-field:focus {
+  border: 1px solid $inputBorderSelected;
+}
+
+.section-contact__form-action {
+  background-color: $contactFormBtnBg;
+}
+
+.section-contact__dna-text {
+  font-family: $mainFontFam;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.section-contact__dna-email {
+  font-weight: 700;
+  text-decoration: underline 2px $contactFormEmailUnderline;
+}
+
+.footer {
+  background-color: $footerBgColor;
+}
+
+.footer__cr {
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+// ================
+// Blog page styles
+// ================
+
+.blog-page-body, 
+.blog-page-footer,
+.footer__content {
+  background-color: $postPageBg;
+}
+
+.section-blog__user-name {
+  font-family: $mainFontFam;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.section-blog__post-time {
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 25px;
+  color: $postInfoColor;
+}
+
+.section-blog__post-heading {
+  font-family: $mainFontFam;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.section-blog__post-text {
+  font-family: $mainFontFam;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.section-blog__btn {
+  border: 1px solid $mainTextColor;
+}
+
+.section-blog__post-wrapper {
+  background-color: $postBgColor !important;
+}
+
+.blog-post-wide {
+  background-color: $postBgColor !important;
+}
+
+.expand-blog-btn {
+  background-color: $expandBlogBtnBg;
+}
+
+.footer__logo-container {
+  font-family: $mainFontFam;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.section-blog__search-input {
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.section-blog__search-input {
+  font-family: $mainFontFam;
+  font-size: 15px;
+  line-height: 25px;
+  color: $mainTextColor;
+}
+
+.section-blog__search-btn img {
+  fill: $mainTextColor;
+}
